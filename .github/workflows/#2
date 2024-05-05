@@ -1,0 +1,17 @@
+model_2g3YlCaRLpY8fMjs2S9z3iBDqfN```python
+def schema_version():
+    return "1.0"
+
+def natural_language_gpt():
+    models = {
+        "gpt_x": {
+            "data_source": ["gretel_cfb16de419ac4b97af307f29f91855d3_prompt.jsonl"],
+            "ref_data": {},
+            "pretrained_model": "mistralai/Mistral-7B-Instruct-v0.2",
+            "prompt_template": None,
+            "column_name": None,
+            "validation": "nu"
+        }
+    }
+    return models
+```model_2g3a29ufnxyQj1ir7EFYFQiNMAMmodel_2g3a29ufnxyQj1ir7EFYFQiNMAM is started.https://github.com/DannyFranklin/DannyFranklin/actions/runs/8887463952/job/24404500498
