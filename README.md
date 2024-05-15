@@ -2,7 +2,7 @@
 - 👀 I’m interested in ... military 
 - 🌱 I’m currently learning ...code
 - 💞️ I’m looking to collaborate on ...navy
-- 📫 How to reach me ... LinkedIn 
+- 📫 How to reach me ... LinkedIn Research assistant 
 - 😄 Pronouns: ... Danny Franklin ledbetter 
 - ⚡ Fun fact: ... research assistant Navair 
 
