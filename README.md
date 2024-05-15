@@ -5,7 +5,7 @@
 #War#hacking
 - 📫 How to reach me ... LinkedIn Research assistant 
 - 😄 Pronouns: ... Danny Franklin ledbetter 
-- ⚡ Fun fact: ... research assistant Navair 
+- ⚡ Fun fact: ... research #assistant Navair 
 
 <!---Propulsion() {
         std::cout << "Plasma-powered propulsion enabled." << std::endl;
