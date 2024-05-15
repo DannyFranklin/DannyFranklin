@@ -1,7 +1,8 @@
 - 👋 Hi, I’m @DannyFranklin
-- 👀 I’m interested in ... military 
+- 👀 I’m interested in ... military#space
 - 🌱 I’m currently learning ...code
-- 💞️ I’m looking to collaborate on ...navy
+- 💞️ I’m looking to collaborate on ...navy#space
+#War#hacking
 - 📫 How to reach me ... LinkedIn Research assistant 
 - 😄 Pronouns: ... Danny Franklin ledbetter 
 - ⚡ Fun fact: ... research assistant Navair 
