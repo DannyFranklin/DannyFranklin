@@ -6,6 +6,27 @@ a52d2dff6a09c045a0f4e040dc7c31a9cd2f728c- 👋 Hi, I’m @DannyFranklin
 - 📫 How to reach me ... LinkedIn Research assistant 
 - 😄 Pronouns: ... Danny Franklin ledbetter 
 - ⚡ Fun fact: ... research #assistant Navair 
+import matplotlib.pyplot as plt
+
+def plot_sensor_data(sensor_data, save=False):
+    fig, ax = plt.subplots(figsize=(10, 5))
+    ax.plot(sensor_data['timestamp'], sensor_data['value'], marker='o', linestyle='-', color='b')
+    ax.set_title('Sensor Data Over Time', fontsize=16)
+    ax.set_xlabel('Time (seconds)', fontsize=14)
+    ax.set_ylabel('Sensor Value', fontsize=14)
+    ax.grid(True)
+    
+    if save:
+        plt.savefig('sensor_data_plot.png')
+    
+    plt.show()
+
+sensor_data = {
+    'timestamp': [1, 2, 3, 4, 5],
+    'value': [10, 20, 15, 25, 30]
+}
+
+plot_sensor_data(sensor_data, save=True)
 
 <!---Propulsion() {
         std::cout << "Plasma-powered propulsion enabled." << std::endl;
