@@ -1,0 +1,86 @@
+The code provided defines a function `plot_saucer_drone` that takes three input arguments: `radius`, `height`, and `num_slices`. This function generates a 3D plot of a saucer drone with the specified parameters.
+
+To use this function, you can call it with specific values for `radius`, `height`, and `num_slices`. For example, `plot_saucer_drone(5, 2, 20);` will plot a saucer drone with a radius of 5, a height of 2, and 20 slices.
+
+You can adjust the input values to customize the appearance of the saucer drone in the plot.tom_y(i)], [top_z(i), bottom_z(i)], 'b', 'LineWidth', 2);
+    end
+    
+    % Set axis limits and labels
+    axis equal;
+    xlabel('X');
+    ylabel('Y');
+    zlabel('Z');
+    title('Saucer Drone');
+    
+    hold off;
+end
+
+% Call the function to plot the saucer drone
+plot_saucer_drone(5, 2, 20);bottom_y(i), top_y(i)], [bottom_z(i), top_z(i)], 'b', 'LineWidth', 2);
+    end
+    
+    % Plot the top of the saucer drone
+    top_theta = linspace(0, 2*pi, num_points);
+    top_x = radius * cos(top_theta);
+    top_y = radius * sin(top_theta);
+    top_z = ones(1, num_points) * height;
+    
+    plot3(top_x, top_y, top_z, 'b', 'LineWidth', 2);
+    
+    % Plot the connection between the top and bottom of the saucer drone
+    for i = 1:num_points
+        plot3([top_x(i), bottom_x(i)], [top_y(i), bottom_y(i)], [top_z(i), bottom_z(i)], 'b', 'LineWidth', 2);
+    end
+end [y(i), top_y(i)], [z(i), top_z(i)], 'b', 'LineWidth', 2);
+    end
+    
+    % Plot the bottom of the saucer drone
+    bottom_theta = linspace(0, 2*pi, num_points);
+    bottom_x = radius * cos(bottom_theta);
+    bottom_y = radius * sin(bottom_theta);
+    bottom_z = ones(1, num_points) * 0;
+    
+    plot3(bottom_x, bottom_y, bottom_z, 'b', 'LineWidth', 2);
+    
+    % Plot the connection between the bottom and top of the saucer drone
+    for i = 1:num_points
+        plot3([bottom_x(i), top_x(i)], [bottom_y(i), top_y(i)], [bottom_z(i), top_z(i)], 'b', 'LineWidth', 2);
+    end
+    
+    hold off;
+    axis equal;
+    xlabel('X');
+    ylabel('Y');
+    zlabel('Z');
+    title('Saucer Drone');figure;
+    plot3(x, y, z, 'b', 'LineWidth', 2);
+    hold on;
+    
+    % Plot the top of the saucer drone
+    top_radius = radius * 0.5;
+    top_theta = linspace(0, 2*pi, num_points);
+    top_x = top_radius * cos(top_theta);
+    top_y = top_radius * sin(top_theta);
+    top_z = ones(1, num_points) * height;
+    
+    plot3(top_x, top_y, top_z, 'b', 'LineWidth', 2);
+    
+    % Plot the connection between the top and bottom of the saucer drone
+    for i = 1:num_points
+        plot3([x(i), top_x(i)], [y(i), top_y(i)], [z(i), top_z(i)], 'b', 'LineWidth', 2);
+    end
+    
+    % Add labels and title
+    xlabel('X');
+    ylabel('Y');
+    zlabel('Z');
+    title('Saucer Drone Project');
+    
+    % Set axis equal and grid on
+    axis equal;
+    grid on;
+    
+end
+
+% Call the function to plot the saucer drone
+saucer_drone_project();
